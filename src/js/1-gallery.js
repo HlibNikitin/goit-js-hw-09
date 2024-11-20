@@ -74,14 +74,14 @@ const createMarkup = arr => {
     .map(
       item =>
         `<li class="gallery-item">
-            <a class="gallery-link" href="${item.original}>
-            <img
-            class="gallery-image"
-            src="${item.preview}"
-            alt="${item.description}"
-            />
-            </a>
-            </li>`
+  <a class="gallery-link" href="${item.original}">
+    <img
+      class="gallery-image"
+      src="${item.preview}"
+      alt="${item.description}"
+    />
+  </a>
+</li>`
     )
     .join('');
 };
